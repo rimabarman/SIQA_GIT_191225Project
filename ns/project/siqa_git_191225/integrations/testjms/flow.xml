@@ -9,11 +9,11 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher">
+<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:insert_ssl">
+<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:insert_ssl" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
