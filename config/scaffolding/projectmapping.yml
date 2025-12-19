@@ -5,10 +5,6 @@ runtimes:
   assets:
   - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
     type: flow
-    stepId: /1
-    reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
-  - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
-    type: flow
     stepId: /2
     reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
   - name: Call_deepclonetest
@@ -22,3 +18,7 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.GB_1:readGlobalvariable
+  - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
+    type: flow
+    stepId: /1
+    reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
