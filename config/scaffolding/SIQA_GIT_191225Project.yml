@@ -33,10 +33,17 @@ packages:
   version: 12.0.0.0.4
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: JMS2waySSL
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.siqa_git_191225.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SoapConnAlias
   packages:
   - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -56,6 +63,8 @@ services:
   packages:
   - name: SIQA_GIT_191225Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -73,6 +82,8 @@ services:
 - serviceName: project.siqa_git_191225.integrations:Call_refData
   packages:
   - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -92,6 +103,8 @@ services:
   packages:
   - name: SIQA_GIT_191225Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -109,6 +122,8 @@ services:
 - serviceName: project.siqa_git_191225.integrations:Sum
   packages:
   - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -136,6 +151,8 @@ services:
   packages:
   - name: SIQA_GIT_191225Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -154,6 +171,8 @@ services:
   packages:
   - name: SIQA_GIT_191225Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -171,6 +190,8 @@ services:
 - serviceName: project.siqa_git_191225.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -202,6 +223,8 @@ services:
   packages:
   - name: SIQA_GIT_191225Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -219,6 +242,8 @@ services:
 - serviceName: publisher:publisher
   packages:
   - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"

@@ -15,17 +15,18 @@
     <value name="SIQACloudStreamsTests">1.0</value>
     <value name="WmSalesforceProvider">12.0.0.0.9</value>
     <value name="WmSalesforceRESTProvider">12.0.0.0.4</value>
+    <value name="JMS2waySSL">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">28</value>
+  <value name="build">29</value>
   <null name="description"/>
   <value name="created_date">19-12-2025 07:55:46 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <Boolean name="isProjectPackage">false</Boolean>
-  <value name="lastUpdated">2025-12-19T13:22:11.678889463Z</value>
+  <value name="lastUpdated">2025-12-19T13:22:44.557040194Z</value>
   <value name="wmProjectId">flb53ef3e04c284b04ae6755156aa7d9fc</value>
   <value name="creator">Rima.Barman </value>
 </Values>
