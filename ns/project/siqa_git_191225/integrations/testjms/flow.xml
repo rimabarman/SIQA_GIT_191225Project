@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="JMSTest" SERVICE="publisher:publisher">
+<INVOKE NAME="JMSTest" SERVICE="publisher:publisher" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -13,7 +13,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:insert_ssl" DISABLED="true">
+<INVOKE NAME="SSL_JDBC_Test" SERVICE="SSL_JDBC_Test.services:insert_ssl">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
