@@ -25,7 +25,26 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: rimabarman
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
+- serviceName: project.siqa_git_191225.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SoapConnAlias
+  packages:
+  - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.9
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_191225.integrations:Call_refData
   packages:
   - name: SIQA_GIT_191225Project
@@ -82,6 +101,22 @@ services:
   packages:
   - name: WmPublic
     version: 12.0.0.0.693
+- serviceName: project.siqa_git_191225.integrations:Test_SoapConnector
+  packages:
+  - name: SIQA_GIT_191225Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.9
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_191225.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_191225Project
