@@ -5,10 +5,6 @@ runtimes:
   assets:
   - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
     type: flow
-    stepId: /0
-    reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.GB_1:readGlobalvariable
-  - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
-    type: flow
     stepId: /1
     reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
   - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
@@ -20,3 +16,9 @@ runtimes:
     uid: fl708576860f0a436ea370ede2089db3e2
     stepId: a0
     reference: project.siqa_git_191225.integrations:deepclonetest
+- runtimeAlias: SIQA_ERT_2025
+  assets:
+  - name: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.integrations:conntest
+    type: flow
+    stepId: /0
+    reference: fld_100564802_stage00.projects.flb53ef3e04c284b04ae6755156aa7d9fc.WmPackageServiceProvider.GB_1:readGlobalvariable
